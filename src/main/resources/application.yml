@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: api
+server:
+  port: ${SERVER_PORT:4000}  
+
+demo:
+  allowedOrigins: ${DEMO_ALLOWEDORIGINS}
